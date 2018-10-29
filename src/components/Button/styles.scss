@@ -1,0 +1,23 @@
+$light-grey: #f2f3f4;
+
+@mixin interaction-state {
+  cursor: pointer;
+  border: 2px solid $light-grey;
+  background-color: $light-grey;
+}
+
+#custom-button {
+  width: 196px;
+  padding: 10px 0;
+  margin: 10px;
+  color: rgb(75, 74, 74);
+  border-radius: 5px;
+  border: 2px solid $light-grey;
+  display: inline-block;
+  &:hover {
+    @include interaction-state();
+  }
+}
+.selected {
+  @include interaction-state();
+}
