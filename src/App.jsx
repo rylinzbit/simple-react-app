@@ -1,10 +1,12 @@
-import React, {Component} from 'react';
+import React from 'react'
+import Main from './containers/Main'
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
-      <h1>Hello React :)</h1>
-    );
+      <Main />
+    )
   }
 }
-export default App;
+
+export default App
