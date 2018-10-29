@@ -51,7 +51,6 @@
     "moment": "^2.22.2",
     "pondjs": "^0.8.9",
     "react": "^15.5.4",
-    "react-c3js": "^0.1.20",
     "react-dom": "^15.5.4",
     "react-redux": "^5.1.0",
     "react-timeseries-charts": "^0.15.4",
